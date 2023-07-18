@@ -1,0 +1,14 @@
+@media screen and (max-width:479px) {
+    .nav-container, .header-item-container{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .header-item-container{
+        gap: 10px;
+    }
+    .nav-container{
+        align-items: center;
+        padding: 20px 10px;
+        gap: 10px;
+    }
+}

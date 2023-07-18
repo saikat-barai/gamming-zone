@@ -1,0 +1,13 @@
+@media screen and (min-width:480px) and (max-width:976px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-container{
+        gap: 10px;
+    }
+    .header-item-container{
+        width: 100%;
+       text-align: center;
+       gap: 10px;
+    }
+}
