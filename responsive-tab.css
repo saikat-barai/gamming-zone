@@ -1,13 +1,34 @@
-@media screen and (min-width:480px) and (max-width:976px) {
-    .nav-container{
-        flex-direction: column;
-    }
-    .nav-container{
-        gap: 10px;
-    }
-    .header-item-container{
-        width: 100%;
-       text-align: center;
-       gap: 10px;
-    }
+@media screen and (min-width: 480px) and (max-width: 976px) {
+  .nav-container {
+    flex-direction: column;
+  }
+  .nav-container {
+    padding: 10px 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* gamming styles  */
+  .gamming-container {
+    margin: 0;
+    padding: 0;
+  }
+  .gammer-section {
+    flex-direction: column;
+    padding: 50px 80px;
+  }
+  .perpose {
+    padding-top: 50px;
+    margin: 0;
+  }
+  .gammer-container h4 {
+    margin: 0;
+    padding-top: 15px;
+  }
+  .gammer-container {
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+  }
 }
