@@ -103,8 +103,34 @@
     flex-direction: column;
     text-align: center;
   }
-  .img-card .main-img{
+  .img-card .main-img {
     width: 325px;
+  }
+  /* play instantly */
+  .play-instantly {
+    
+  }
+  .instantly-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .instant-content{
+    
+}
+.instant-content h2 {
+    
+  }
+  .instant-content p {
+    
+  }
+  .instant-img .main-img {
+  
+  }
+  .sub-img img{
+      
+      position: relative;
+      
   }
   /* footer  */
   footer {
