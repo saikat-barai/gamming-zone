@@ -1,7 +1,6 @@
 @media screen and (max-width: 479px) {
   .nav-container,
-  .nav-item
-   {
+  .nav-item {
     flex-direction: column;
   }
   .nav-container {
@@ -12,35 +11,107 @@
     text-align: center;
     padding-bottom: 10px;
   }
+  /* banner  */
+  .banner {
+    flex-direction: column-reverse;
+    align-items: center;
+    background-image: url("./asset/images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 400px;
+    margin: 0;
+    padding: 50px;
+  }
+  .banner-img img {
+    padding-bottom: 30px;
+    width: 300px;
+  }
+  .nav-container {
+    padding-top: 20px;
+  }
+  .banner-container h3 {
+    color: #0b0223;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  .banner-container h2 {
+    font-size: 45px;
+    font-weight: 800;
+    margin: 0;
+    padding-bottom: 10px;
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    gap: 30px;
+  }
+  .banner-btn {
+    padding-top: 10px;
+    gap: 10px;
+  }
+  .banner-btn .sign-in-btn {
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  }
+  .banner-btn .go-rogu-btn {
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 25px;
 
-
+    background: #4ec5f7;
+  }
   /* gammer style  */
-  .gamming-container{
+  .gamming-container {
     margin: 0;
     padding: 0;
   }
-  .gammer-section{
+  .gammer-section {
     flex-direction: column;
     padding: 30px 50px;
   }
-  .perpose{
+  .perpose {
     padding-top: 30px;
     margin: 0;
   }
-  .gammer-container h4{
+  .gammer-container h4 {
     margin: 0;
     padding-top: 10px;
   }
-  .gammer-container{
+  .gammer-container {
     padding-top: 30px;
     text-align: center;
     justify-content: center;
   }
-  .gammer-img img{
+  .gammer-img img {
     width: 300px;
   }
 
-
   /* video section style  */
-  
+  .video-container {
+    margin: 0;
+    padding: 0px 50px;
+  }
+  .video-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .img-card .main-img{
+    width: 325px;
+  }
+  /* footer  */
+  footer {
+    margin: 0;
+    padding: 10px 40px;
+  }
+  .footer-menu {
+    line-height: 40px;
+  }
 }
