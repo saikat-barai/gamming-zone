@@ -115,7 +115,7 @@
     padding: 50px 50px;
     align-items: center;
   }
-  .author-container a {
+  .author-container .author {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -125,17 +125,17 @@
     border-radius: 50px;
     background: #fff;
   }
-  .author-container a img {
+  .author-container .author img {
     width: 40px;
     height: 40px;
   }
-  .author-container a {
+  .author-container .author {
     color: #0b0223;
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
   }
-  .author-container a:hover {
+  .author-container .author:hover {
     color: #ff42a5;
     border: 2px solid #ff42a5;
   }

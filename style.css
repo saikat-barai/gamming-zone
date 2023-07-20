@@ -329,27 +329,27 @@ body {
   align-items: center;
   
 }
-.author-container a{
+.author-container .author{
   display: flex;
   align-items: center;
   gap: 10px;
   color: #0b0223;
-  text-decoration: none;
-  padding: 8px 3px;
+  padding: 5px 3px;
   border-radius: 50px;
   background: #fff;
+  border: 2px solid white;
 }
-.author-container a img {
+.author-container .author img {
   width: 40px;
   height: 40px;
 }
-.author-container a{
+.author-container .author{
   color: #0b0223;
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
 }
-.author-container a:hover {
+.author-container .author:hover{
   color: #FF42A5;
   border: 2px solid #FF42A5;
   
