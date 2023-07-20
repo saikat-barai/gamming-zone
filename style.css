@@ -220,6 +220,7 @@ body {
   font-weight: 600;
   border-radius: 48px;
   padding: 15px 30px;
+  cursor: pointer;
   background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
 }
 
@@ -380,12 +381,17 @@ footer {
 .social-icon {
   display: flex;
   justify-content: center;
+  margin: 0;
+  padding: 20px 50px;
+  gap: 30px;
+}
+.social-icon a{
+ margin: 0;
+ justify-content: center;
 }
 .social-icon img {
   width: 25px;
-  margin-right: 15px;
-  padding-top: 40px;
-  padding-bottom: 20px;
+ 
 }
 
 .privacy-setting a {

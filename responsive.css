@@ -195,13 +195,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0px;
-    padding: 10px 50px 10px 95px;
+    line-height: 50px;
+    
   }
   .social-icon img {
     width: 25px;
-    margin-right: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    
   }
   .privacy-setting{
     display: grid;
