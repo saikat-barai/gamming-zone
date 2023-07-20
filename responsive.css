@@ -156,10 +156,8 @@
     );
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
-    padding: 10px 50px;
+    padding: 20px 50px;
     align-items: center;
-    margin-bottom: 50px;
   }
   .author-container a {
     display: flex;
