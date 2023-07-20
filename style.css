@@ -122,6 +122,7 @@ body {
   border-radius: 48px;
   padding: 15px 30px;
   background: #4ec5f7;
+  cursor: pointer;
 }
 .banner-img img {
   width: 500px;
@@ -289,16 +290,24 @@ body {
 
 .ytub-btn {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
+ text-align: center;
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: opacity 0.2s ease;
   cursor: pointer;
+  
+}
+.ytub-btn img{
+  padding-bottom: 10px;
 }
 
 .ytub-btn .watch-now-txt {
   color: #ff42a5;
+  margin: 0;
+  
+  
 }
 
 .img-card:hover .ytub-btn {
@@ -317,7 +326,7 @@ body {
   gap: 20px;
   padding: 70px 150px;
   align-items: center;
-  margin-bottom: 50px;
+  
 }
 .author-container a{
   display: flex;

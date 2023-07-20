@@ -213,5 +213,9 @@
     padding-bottom: 10px;
     line-height: 30px;
   }
+  .copy-right{
+    padding: 0px 80px;
+    line-height: 20px;
+  }
   
 }

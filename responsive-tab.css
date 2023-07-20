@@ -65,7 +65,6 @@
   .play-instantly {
     margin: 0;
     padding: 10px 50px;
-    
   }
   .instantly-container {
     background-color: #fff;
@@ -102,5 +101,47 @@
   }
   .instant-img {
     margin-top: 0px;
+  }
+  /* author styles  */
+  .author-container {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 66, 165, 0.03) 0%,
+      rgba(255, 66, 165, 0.03) 100%
+    );
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px 50px;
+    align-items: center;
+  }
+  .author-container a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #0b0223;
+    text-decoration: none;
+    padding: 8px 3px;
+    border-radius: 50px;
+    background: #fff;
+  }
+  .author-container a img {
+    width: 40px;
+    height: 40px;
+  }
+  .author-container a {
+    color: #0b0223;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .author-container a:hover {
+    color: #ff42a5;
+    border: 2px solid #ff42a5;
+  }
+  /* footer styles  */
+  footer {
+    background-color: #0b0223;
+    padding: 50px 50px;
   }
 }
