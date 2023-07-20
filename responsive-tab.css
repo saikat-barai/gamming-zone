@@ -50,7 +50,7 @@
     margin: 0;
     padding: 0px 100px;
   }
-  .video-card{
+  .video-card {
     padding: 0px 110px;
   }
   .video-card {
@@ -61,5 +61,46 @@
   .img-card .main-img {
     width: 350px;
   }
-  
+  /* play instantly */
+  .play-instantly {
+    margin: 0;
+    padding: 10px 50px;
+    
+  }
+  .instantly-container {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  .instant-content {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .instant-content h2 {
+    padding: 0px 30px;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .instant-content p {
+    color: #534c64;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    line-height: 24px;
+  }
+  .instant-img {
+    padding-top: 150px;
+  }
+  .instant-img .main-img {
+    width: 280px;
+    margin-left: 70px;
+  }
+  .sub-img img {
+    width: 160px;
+    right: 0px;
+  }
+  .instant-img {
+    margin-top: 0px;
+  }
 }
